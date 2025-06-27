@@ -1,6 +1,6 @@
 {
   "name": "electron-crisp-demo",
-  "version": "1.0.0",
+  "version": "0.0.6",
   "scripts": {
     "dev": "DEBUG_DEV_TOOLS=1 electron index.js",
     "dev:cjs": "DEBUG_DEV_TOOLS=1 electron index.cjs",
@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@niubir/electron-crisp": "^0.0.3"
+    "@niubir/electron-crisp": "^0.0.6",
+    "electron": "^37.1.0"
   }
 }
